@@ -23,7 +23,7 @@ model.eval()
 print("Model ready for inference")
 
 # Get class names in the same order as during training
-classes = sorted(os.listdir('split_dataset/test'))
+classes = ['BEAR', 'CATS', 'CHEETAH', 'COW', 'CROCODILES', 'DEER', 'DOGS', 'ELEPHANT', 'GIRAFFE', 'GOAT', 'HIPPOPOTAMUS', 'HORSE', 'KANGAROO', 'LION', 'MEERKAT', 'MONKEY', 'MOOSE', 'OSTRICH', 'PANDA', 'PENGUINS', 'PORCUPINE', 'RABBIT', 'RHINOCEROS', 'SNAKE', 'SQUIRREL', 'TIGER', 'TORTOISE', 'WALRUS', 'WOLF', 'ZEBRA', 'antelope', 'buffalo', 'chimpanzee', 'collie', 'german+shepherd', 'grizzly+bear', 'otter', 'ox', 'persian+cat', 'seal']
 print(f"Loaded classes: {classes}")
 
 # Image preprocessing
